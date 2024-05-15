@@ -14,8 +14,8 @@
     <meta charset="UTF-8">
     <title>Обновить</title>
     
-        <style>
-/* Основные стили для формы */
+    <style>
+
 .form-container {
   display: flex;
   align-items: center;

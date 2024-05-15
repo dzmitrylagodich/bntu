@@ -282,17 +282,18 @@ require_once '../admin/connect.php';
   <br>
   <h3 style="display: flex; align-items: center; justify-content: center;">Добавить нового пользователя</h3>
   <div style="display: flex; align-items: center; justify-content: center;"> 
+  
   <form action="../admin/users/create.php" method="post">
       <p>ID</p>
-      <input type="text" name="ID">
+      <input type="text" name="ID" id="ID">
       <p>Имя</p>
-      <textarea name="FirstName"></textarea><br><br>
+      <textarea name="FirstName" id="FirstName"></textarea><br><br>
       <p>Фамилимя</p>
-      <textarea name="SecondName"></textarea><br><br>
+      <textarea name="SecondName" id="SecondName"></textarea><br><br>
       <p>Почта</p>
-      <textarea name="email"></textarea><br><br>
+      <textarea name="email" id="email"></textarea><br><br>
       <p>Пароль</p>
-      <textarea name="password"></textarea><br><br>
+      <textarea name="password" id="password"></textarea><br><br>
 
       <button type="submit" style="display: flex; justify-content: center; align-items: center;">Добавить</button>    
   </form>

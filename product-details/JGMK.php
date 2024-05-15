@@ -143,8 +143,9 @@ require_once '../admin/connect.php';
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                    <ul class="nav">
-                      <li><a href="../index.php" class="active">Главная</a></li>
+                    <li><a href="../index.php"><strong>Главная </strong></a></li>
                       <li><a href="../shop.php">Филиалы БНТУ</a></li>
+                      <li><a href="../contact.php">Контакты</a></li>
                       <?php
                         session_start();
 

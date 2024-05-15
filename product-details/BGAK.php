@@ -141,8 +141,9 @@ require_once '../admin/connect.php';
                         <img src="../assets/images/logo_bntu_2021_green.svg" alt="">
                     </a>
                     <ul class="nav">
-                      <li><a href="../index.php">Главная</a></li>
-                      <li><a href="../shop.php" class="active">Филиалы БНТУ</a></li>
+                      <li><a href="../index.php"><strong>Главная </strong></a></li>
+                      <li><a href="../shop.php">Филиалы БНТУ</a></li>
+                      <li><a href="../contact.php">Контакты</a></li>
                       <?php
                         session_start();
 

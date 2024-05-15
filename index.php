@@ -89,6 +89,7 @@
                       <li><a href="index.php" class="active"><strong>Главная </strong></a></li>
                       <li><a href="shop.php">Филиалы БНТУ</a></li>
                       <li><a href="contact.php">Контакты</a></li>
+                        
                         <?php
                         session_start();
 
