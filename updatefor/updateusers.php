@@ -1,9 +1,9 @@
 <?php
     require_once '../admin/connect.php';
 
-    $ID = $_GET['ID'];
+    $id = $_GET['id'];
 
-    $user = mysqli_query($conn, "SELECT * FROM `users` WHERE `ID` = '$ID'");
+    $user = mysqli_query($conn, "SELECT * FROM `users` WHERE `id` = '$id'");
 
     $user = mysqli_fetch_assoc($user);
 ?>
@@ -71,7 +71,7 @@ button[type="submit"]:hover {
        <div style="display: flex; align-items: center; justify-content: center;">
     <form action="../admin/users/update.php" method="post">
         <p>ID</p>
-        <input type="hidden" name="ID" value="<?= $user['ID'] ?>">
+        <input type="hidden" name="id" value="<?= $user['id'] ?>">
         <p>Имя</p>
         <textarea name="FirstName"><?= $user['FirstName'] ?></textarea><br><br>
         <p>Фамилимя</p>

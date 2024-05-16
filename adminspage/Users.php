@@ -265,10 +265,10 @@ require_once '../admin/connect.php';
           <?=$user[4] ?>
       </td>
       <td>
-          <a href="../updatefor/updateusers.php?ID=<?= $user[0] ?>">Изменить</a>
+          <a href="../updatefor/updateusers.php?id=<?= $user[0] ?>">Изменить</a>
       </td>
       <td>
-          <a href="../admin/users/delete.php?ID=<?= $user[0] ?>">Удалить</a>
+          <a href="../admin/users/delete.php?id=<?= $user[0] ?>">Удалить</a>
       </td>
       </tr>
   <?php
@@ -285,7 +285,7 @@ require_once '../admin/connect.php';
   
   <form action="../admin/users/create.php" method="post">
       <p>ID</p>
-      <input type="text" name="ID" id="ID">
+      <input type="text" name="id" id="id">
       <p>Имя</p>
       <textarea name="FirstName" id="FirstName"></textarea><br><br>
       <p>Фамилимя</p>

@@ -69,7 +69,6 @@ button[type="submit"]:hover {
  <h2 style="display: flex; align-items: center; justify-content: center;">Обновить</h2>
        <div style="display: flex; align-items: center; justify-content: center;">
     <form action="../admin/colleges/update.php" method="post">
-        <p>collegeID</p>
         <input type="hidden" name="collegeID" value="<?= $colleg['collegeID'] ?>">
         <p>Название</p>
         <textarea name="collegeName"><?= $colleg['collegeName'] ?></textarea><br><br>

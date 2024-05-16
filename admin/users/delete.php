@@ -1,8 +1,8 @@
 <?php
 require_once '../connect.php';
 
-$ID = $_GET['ID'];
+$id = $_GET['id'];
 
-mysqli_query($conn, "DELETE FROM `Users` WHERE `Users`.`ID` = '$ID'");
+mysqli_query($conn, "DELETE FROM `Users` WHERE `Users`.`id` = '$id'");
 
 header('Location: ../../adminspage/users.php');
